@@ -1,0 +1,57 @@
+.input {
+	width: 100%;
+	padding: 12px 20px;
+	border-radius: 5px;
+	background-color: #e4e4e4;
+	border: none;
+}
+.loginInput {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+.remember {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+}
+input[type='checkbox'] {
+	width: 25px;
+	height: 25px;
+
+}
+input[type='checkbox']:checked {
+	width: 25px;
+	height: 25px;
+}
+input[type='password'] {
+	-webkit-text-security: square;
+}
+.forgot > a {
+	/* text-decoration: none; */
+	color: #0671E0;
+}
+.checkboxContainer {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+.loginBtn {
+	padding: 14px 32px;
+	background-color: #eef5fc;
+	color: #abbed1;
+	border: none;
+	border-radius: 8px;
+	font-size: 16px;
+}
+.line {
+	width: 100%;
+	background-color: #e4e4e4;
+	height: 1px;
+	margin-top: 16px;
+}
+.input:focus {
+	outline: 2px solid #0671e0;
+	border: 2px solid transparent;
+}

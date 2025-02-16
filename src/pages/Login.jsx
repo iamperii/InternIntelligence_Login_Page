@@ -1,9 +1,11 @@
-import React from 'react'
+import LoginInput from '../components/LoginInput/LoginInput';
 
 const Login = () => {
 	return (
-		<div>Login</div>
-	)
-}
+		<>
+			<LoginInput />
+		</>
+	);
+};
 
-export default Login
+export default Login;
